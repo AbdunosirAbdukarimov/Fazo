@@ -1,0 +1,5 @@
+export {default as Nav} from "./Navbar/Nav"
+export {default as Nav_top} from "./Nav_top/NavTop"
+export {default as Category} from "./category/Category"
+export {default as Swiper} from "./Swiper/Swiper"
+export {default as Main} from "./main/main"
