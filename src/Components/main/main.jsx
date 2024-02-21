@@ -20,7 +20,12 @@ const Main = () => {
         justifyContent={"space-between"}
         alignItems={"center"}
       >
-        <Typography variant="h2" fontSize={"24px"} color={"#202020"} fontWeight={'600'}>
+        <Typography
+          variant="h2"
+          fontSize={"24px"}
+          color={"#202020"}
+          fontWeight={"600"}
+        >
           Горящие предложения
         </Typography>
         <Typography variant="h2" fontSize={"16px"} color={"#909090"}>
@@ -55,7 +60,7 @@ const Main = () => {
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 <span
@@ -72,17 +77,22 @@ const Main = () => {
                 1 304 000 сум
               </Typography>
               <Typography
-                variant="h5"
+                height={"50px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"700"}
                 color={"black"}
+                whiteSpace={"wrap"}
               >
                 Телефон TECNO Spark 6 Go KE5j 3/64GB Ice Jadeite
               </Typography>
               <Typography
                 margin={"10px 0"}
-                variant="h5"
+                variant="h1"
                 color={"#909090"}
                 fontSize={"15px"}
                 textAlign={"center"}
@@ -98,7 +108,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       27
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ДНЕЙ
                     </Typography>
                   </Stack>
@@ -107,7 +117,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       21
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ЧАСОВ
                     </Typography>
                   </Stack>
@@ -116,7 +126,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       32
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       МИНУТ
                     </Typography>
                   </Stack>
@@ -125,7 +135,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       05
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       СЕКУНД
                     </Typography>
                   </Stack>
@@ -199,7 +209,7 @@ const Main = () => {
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 <span
@@ -216,17 +226,21 @@ const Main = () => {
                 350 000 сум
               </Typography>
               <Typography
-                variant="h5"
+                height={"50px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"700"}
                 color={"black"}
               >
-                Умные часы Haylou <br /> RT-LS05S
+                Умные часы Haylou RT-LS05S
               </Typography>
               <Typography
                 margin={"10px 0"}
-                variant="h5"
+                variant="h1"
                 color={"#909090"}
                 fontSize={"15px"}
                 textAlign={"center"}
@@ -242,7 +256,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       27
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ДНЕЙ
                     </Typography>
                   </Stack>
@@ -251,7 +265,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       21
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ЧАСОВ
                     </Typography>
                   </Stack>
@@ -260,7 +274,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       32
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       МИНУТ
                     </Typography>
                   </Stack>
@@ -269,7 +283,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       05
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       СЕКУНД
                     </Typography>
                   </Stack>
@@ -343,7 +357,7 @@ const Main = () => {
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 <span
@@ -360,7 +374,11 @@ const Main = () => {
                 1 350 000 сум
               </Typography>
               <Typography
-                variant="h5"
+                height={"50px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"700"}
@@ -370,7 +388,7 @@ const Main = () => {
               </Typography>
               <Typography
                 margin={"10px 0"}
-                variant="h5"
+                variant="h1"
                 color={"#909090"}
                 fontSize={"15px"}
                 textAlign={"center"}
@@ -386,7 +404,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       27
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ДНЕЙ
                     </Typography>
                   </Stack>
@@ -395,7 +413,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       21
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ЧАСОВ
                     </Typography>
                   </Stack>
@@ -404,7 +422,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       32
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       МИНУТ
                     </Typography>
                   </Stack>
@@ -413,7 +431,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       05
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       СЕКУНД
                     </Typography>
                   </Stack>
@@ -487,7 +505,7 @@ const Main = () => {
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 <span
@@ -504,18 +522,21 @@ const Main = () => {
                 350 000 сум
               </Typography>
               <Typography
-                variant="h5"
+                height={"50px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"700"}
                 color={"black"}
               >
-                Умные часы Haylou <br />
-                RT-LS05S
+                Умные часы Haylou RT-LS05S
               </Typography>
               <Typography
                 margin={"10px 0"}
-                variant="h5"
+                variant="h1"
                 color={"#909090"}
                 fontSize={"15px"}
                 textAlign={"center"}
@@ -531,7 +552,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       27
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ДНЕЙ
                     </Typography>
                   </Stack>
@@ -540,7 +561,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       21
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ЧАСОВ
                     </Typography>
                   </Stack>
@@ -549,7 +570,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       32
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       МИНУТ
                     </Typography>
                   </Stack>
@@ -558,7 +579,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       05
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       СЕКУНД
                     </Typography>
                   </Stack>
@@ -632,7 +653,7 @@ const Main = () => {
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 <span
@@ -649,18 +670,21 @@ const Main = () => {
                 350 000 сум
               </Typography>
               <Typography
-                variant="h5"
+                height={"50px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"700"}
                 color={"black"}
               >
-                Клавиатура 2E <br />
-                Gaming KG330
+                Клавиатура 2E Gaming KG330
               </Typography>
               <Typography
                 margin={"10px 0"}
-                variant="h5"
+                variant="h1"
                 color={"#909090"}
                 fontSize={"15px"}
                 textAlign={"center"}
@@ -676,7 +700,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       27
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ДНЕЙ
                     </Typography>
                   </Stack>
@@ -685,7 +709,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       21
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ЧАСОВ
                     </Typography>
                   </Stack>
@@ -694,7 +718,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       32
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       МИНУТ
                     </Typography>
                   </Stack>
@@ -703,7 +727,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       05
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       СЕКУНД
                     </Typography>
                   </Stack>
@@ -777,7 +801,7 @@ const Main = () => {
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 <span
@@ -794,7 +818,11 @@ const Main = () => {
                 79 000 сум
               </Typography>
               <Typography
-                variant="h5"
+                height={"50px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"700"}
@@ -804,7 +832,7 @@ const Main = () => {
               </Typography>
               <Typography
                 margin={"10px 0"}
-                variant="h5"
+                variant="h1"
                 color={"#909090"}
                 fontSize={"15px"}
                 textAlign={"center"}
@@ -820,7 +848,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       27
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ДНЕЙ
                     </Typography>
                   </Stack>
@@ -829,7 +857,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       21
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ЧАСОВ
                     </Typography>
                   </Stack>
@@ -838,7 +866,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       32
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       МИНУТ
                     </Typography>
                   </Stack>
@@ -847,7 +875,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       05
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       СЕКУНД
                     </Typography>
                   </Stack>
@@ -921,7 +949,7 @@ const Main = () => {
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 <span
@@ -938,7 +966,11 @@ const Main = () => {
                 350 000 сум
               </Typography>
               <Typography
-                variant="h5"
+                height={"50px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"700"}
@@ -948,7 +980,7 @@ const Main = () => {
               </Typography>
               <Typography
                 margin={"10px 0"}
-                variant="h5"
+                variant="h1"
                 color={"#909090"}
                 fontSize={"15px"}
                 textAlign={"center"}
@@ -964,7 +996,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       27
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ДНЕЙ
                     </Typography>
                   </Stack>
@@ -973,7 +1005,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       21
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ЧАСОВ
                     </Typography>
                   </Stack>
@@ -982,7 +1014,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       32
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       МИНУТ
                     </Typography>
                   </Stack>
@@ -991,7 +1023,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       05
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       СЕКУНД
                     </Typography>
                   </Stack>
@@ -1065,7 +1097,7 @@ const Main = () => {
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 <span
@@ -1082,18 +1114,21 @@ const Main = () => {
                 200 000 сум
               </Typography>
               <Typography
-                variant="h5"
+                height={"50px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"700"}
                 color={"black"}
               >
-                Motorola <br />
-                Smartwatch
+                Motorola Smartwatch
               </Typography>
               <Typography
                 margin={"10px 0"}
-                variant="h5"
+                variant="h1"
                 color={"#909090"}
                 fontSize={"15px"}
                 textAlign={"center"}
@@ -1109,7 +1144,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       27
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ДНЕЙ
                     </Typography>
                   </Stack>
@@ -1118,7 +1153,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       21
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       ЧАСОВ
                     </Typography>
                   </Stack>
@@ -1127,7 +1162,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       32
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       МИНУТ
                     </Typography>
                   </Stack>
@@ -1136,7 +1171,7 @@ const Main = () => {
                     <Typography variant="h3" fontSize={"16px"}>
                       05
                     </Typography>
-                    <Typography variant="h5" fontSize={"8px"}>
+                    <Typography variant="h1" fontSize={"8px"}>
                       СЕКУНД
                     </Typography>
                   </Stack>

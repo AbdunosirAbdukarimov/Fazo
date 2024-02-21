@@ -1,5 +1,5 @@
 import { Button, List, ListItem, Typography } from "@mui/material";
-import { color, Stack } from "@mui/system";
+import { Stack } from "@mui/system";
 import { AiOutlineBars } from "react-icons/ai";
 
 const Category = () => {
@@ -22,7 +22,7 @@ const Category = () => {
         </Typography>
         <Typography fontSize={"14px"}>Категории</Typography>
       </Button>
-      <List sx={{fontSize:'15px',display:'flex', alignItems:'center',justifyContent:'space-between', gap:'15px', fontWeight:'600',}}>
+      <List sx={{fontSize:'16px',display:'flex', alignItems:'center',justifyContent:'space-between', gap:'15px', fontWeight:'600',}}>
         <li>Наши магазины</li>
         <li>Моноблоки</li>
         <li>Телефоны, планшеты</li>

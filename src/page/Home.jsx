@@ -19,7 +19,7 @@ const Home = () => {
           <Typography variant="h1" fontSize={"42px"} color={"#202020"}>
             Apple iPhone X 64 ГБ
           </Typography>
-          <Typography variant="h5" fontSize={"16px"} color={"#909090"} marginTop={'20px'}>
+          <Typography variant="h1" fontSize={"16px"} color={"#909090"} marginTop={'20px'}>
             Совершенно новый дисплей Super Retina с диагональю 5,8 дюйма,
             который удобно лежит в руке и потрясающие выглядит, — это и есть
             iPhone X.
@@ -38,7 +38,7 @@ const Home = () => {
             1 250 900 Сум
           </Typography>
           <Typography
-            variant="h5"
+            variant="h1"
             fontSize={"20px"}
             color={"#909090"}
             margin={"20px 0"}

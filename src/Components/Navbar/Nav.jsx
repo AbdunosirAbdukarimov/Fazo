@@ -16,7 +16,7 @@ const Nav = () => {
         <img src="../../img/Logo.png" alt="" />
       </Box>
       <Stack flexDirection={"row"} sx={{border:"2px solid #ED3729", borderRadius:"7px"}} alignItems={"center"} width={"48%"} justifyContent={"space-between"} position={"relative"}>
-          <Select sx={{color:"#202020", "& fieldset": { border: 'none' }}} defaultValue={10}>
+          <Select sx={{color:"#202020", "& fieldset": { border: 'none' }, textOverflow:'ellipsis',overflow:'hidden',width:'26%'}} defaultValue={10}>
             <MenuItem value={10}>Все категории</MenuItem>
             <MenuItem value={20}>Телефоны, планшеты</MenuItem>
             <MenuItem value={30}>Ноутбуки</MenuItem>
@@ -25,7 +25,7 @@ const Nav = () => {
             <MenuItem value={60}>Компьютеры</MenuItem>
             <MenuItem value={70}>Техника для офиса</MenuItem>
           </Select>
-          <TextField placeholder='Телефоны и бытовая' variant="outlined" sx={{"& fieldset": { border: 'none' },position:"absolute", left:"24%", width:"57%"}}/>
+          <TextField placeholder='Телефоны и бытовая' variant="outlined" sx={{"& fieldset": { border: 'none' }, width:"56%"}}/>
           <MicNoneIcon sx={{position:"absolute", right:"21%",color:"#BDBDBD"}}/>
           <Button  sx={{"&:hover": { backgroundColor: "#ED3729" }, bgcolor:"#ED3729", color:"white", display:'flex', justifyContent:"space-between", padding:"16px 15px", borderStartStartRadius:0, borderBottomLeftRadius:0,}}><SearchIcon sx={{marginRight:"10px"}}/> Поиск</Button>
       </Stack>

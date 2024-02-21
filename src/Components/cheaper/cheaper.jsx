@@ -1,10 +1,10 @@
 import {
-Box,
-Button,
-Card,
-CardActionArea,
-CardContent,
-Typography,
+  Box,
+  Button,
+  Card,
+  CardActionArea,
+  CardContent,
+  Typography,
 } from "@mui/material";
 import { Stack } from "@mui/system";
 import { PiScales } from "react-icons/pi";
@@ -20,8 +20,13 @@ const Cheaper = () => {
         justifyContent={"space-between"}
         alignItems={"center"}
       >
-        <Typography variant="h2" fontSize={"24px"} color={"#202020"} fontWeight={'60'}>
-        Товары дешевле:
+        <Typography
+          variant="h2"
+          fontSize={"24px"}
+          color={"#202020"}
+          fontWeight={"60"}
+        >
+          Товары дешевле:
         </Typography>
         <Typography variant="h2" fontSize={"16px"} color={"#909090"}>
           Посмотреть все →
@@ -45,9 +50,9 @@ const Cheaper = () => {
                 justifyContent: "center",
               }}
             />
-            <CardContent sx={{textAlign:'center'}}>
+            <CardContent sx={{ textAlign: "center" }}>
               <Typography
-              marginBottom={"5px"}
+                marginBottom={"5px"}
                 display={"flex"}
                 justifyContent={"center"}
                 alignItems={"center"}
@@ -55,31 +60,34 @@ const Cheaper = () => {
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 458 000 сум/мес
               </Typography>
-                <span
-                  style={{
-                    color: "#909090",
-                    textDecoration: "line-through",
-                    fontSize: "14px",
-                    fontWeight: "400",
-                  }}
-                >
-                  529 000 сум
-                </span>
+              <span
+                style={{
+                  color: "#909090",
+                  textDecoration: "line-through",
+                  fontSize: "14px",
+                  fontWeight: "400",
+                }}
+              >
+                529 000 сум
+              </span>
               <Typography
-                variant="h5"
+                height={"40px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"800"}
                 color={"black"}
                 marginTop={"15px"}
               >
-                Умные часы Haylou <br />
-                RT-LS05S
+                Умные часы Haylou RT-LS05S
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -139,9 +147,9 @@ const Cheaper = () => {
                 justifyContent: "center",
               }}
             />
-            <CardContent sx={{textAlign:'center'}}>
+            <CardContent sx={{ textAlign: "center" }}>
               <Typography
-              marginBottom={"5px"}
+                marginBottom={"5px"}
                 display={"flex"}
                 justifyContent={"center"}
                 alignItems={"center"}
@@ -149,31 +157,34 @@ const Cheaper = () => {
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 18 000 сум/мес
               </Typography>
-                <span
-                  style={{
-                    color: "#909090",
-                    textDecoration: "line-through",
-                    fontSize: "14px",
-                    fontWeight: "400",
-                  }}
-                >
-                  99 000 сум
-                </span>
+              <span
+                style={{
+                  color: "#909090",
+                  textDecoration: "line-through",
+                  fontSize: "14px",
+                  fontWeight: "400",
+                }}
+              >
+                99 000 сум
+              </span>
               <Typography
-                variant="h5"
+                height={"40px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"800"}
                 color={"black"}
                 marginTop={"15px"}
               >
-                Наушники Panasonic <br />
-RP-HJE125E-R
+                Наушники Panasonic RP-HJE125E-R
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -233,9 +244,9 @@ RP-HJE125E-R
                 justifyContent: "center",
               }}
             />
-            <CardContent sx={{textAlign:'center'}}>
+            <CardContent sx={{ textAlign: "center" }}>
               <Typography
-              marginBottom={"5px"}
+                marginBottom={"5px"}
                 display={"flex"}
                 justifyContent={"center"}
                 alignItems={"center"}
@@ -243,23 +254,27 @@ RP-HJE125E-R
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 9 525 000 сум/мес
               </Typography>
-                <span
-                  style={{
-                    color: "#909090",
-                    textDecoration: "line-through",
-                    fontSize: "14px",
-                    fontWeight: "400",
-                  }}
-                >
-                  10 520 000 сум
-                </span>
+              <span
+                style={{
+                  color: "#909090",
+                  textDecoration: "line-through",
+                  fontSize: "14px",
+                  fontWeight: "400",
+                }}
+              >
+                10 520 000 сум
+              </span>
               <Typography
-                variant="h5"
+                height={"40px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"800"}
@@ -326,9 +341,9 @@ RP-HJE125E-R
                 justifyContent: "center",
               }}
             />
-            <CardContent sx={{textAlign:'center'}}>
+            <CardContent sx={{ textAlign: "center" }}>
               <Typography
-              marginBottom={"5px"}
+                marginBottom={"5px"}
                 display={"flex"}
                 justifyContent={"center"}
                 alignItems={"center"}
@@ -336,31 +351,34 @@ RP-HJE125E-R
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 600 000 сум/мес
               </Typography>
-                <span
-                  style={{
-                    color: "#909090",
-                    textDecoration: "line-through",
-                    fontSize: "14px",
-                    fontWeight: "400",
-                  }}
-                >
-                  909 000 сум
-                </span>
+              <span
+                style={{
+                  color: "#909090",
+                  textDecoration: "line-through",
+                  fontSize: "14px",
+                  fontWeight: "400",
+                }}
+              >
+                909 000 сум
+              </span>
               <Typography
-                variant="h5"
+                height={"40px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"800"}
                 color={"black"}
                 marginTop={"15px"}
               >
-                Источник бесперебойного <br />
-питания AVT 600 AVR (EA260)
+                Источник бесперебойного питания AVT 600 AVR (EA260)
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -420,9 +438,9 @@ RP-HJE125E-R
                 justifyContent: "center",
               }}
             />
-            <CardContent sx={{textAlign:'center'}}>
+            <CardContent sx={{ textAlign: "center" }}>
               <Typography
-              marginBottom={"5px"}
+                marginBottom={"5px"}
                 display={"flex"}
                 justifyContent={"center"}
                 alignItems={"center"}
@@ -430,31 +448,34 @@ RP-HJE125E-R
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 130 000 сум/мес
               </Typography>
-                <span
-                  style={{
-                    color: "#909090",
-                    textDecoration: "line-through",
-                    fontSize: "14px",
-                    fontWeight: "400",
-                  }}
-                >
-                  200 000 сум
-                </span>
+              <span
+                style={{
+                  color: "#909090",
+                  textDecoration: "line-through",
+                  fontSize: "14px",
+                  fontWeight: "400",
+                }}
+              >
+                200 000 сум
+              </span>
               <Typography
-                variant="h5"
+                height={"40px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"800"}
                 color={"black"}
                 marginTop={"15px"}
               >
-                Беспроводная мышь <br />
-Logitech M220 SILENT
+                Беспроводная мышь Logitech M220 SILENT
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -514,9 +535,9 @@ Logitech M220 SILENT
                 justifyContent: "center",
               }}
             />
-            <CardContent sx={{textAlign:'center'}}>
+            <CardContent sx={{ textAlign: "center" }}>
               <Typography
-              marginBottom={"5px"}
+                marginBottom={"5px"}
                 display={"flex"}
                 justifyContent={"center"}
                 alignItems={"center"}
@@ -524,23 +545,27 @@ Logitech M220 SILENT
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 18 000 сум/мес
               </Typography>
-                <span
-                  style={{
-                    color: "#909090",
-                    textDecoration: "line-through",
-                    fontSize: "14px",
-                    fontWeight: "400",
-                  }}
-                >
-                  253 000 сум
-                </span>
+              <span
+                style={{
+                  color: "#909090",
+                  textDecoration: "line-through",
+                  fontSize: "14px",
+                  fontWeight: "400",
+                }}
+              >
+                253 000 сум
+              </span>
               <Typography
-                variant="h5"
+                height={"40px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"800"}
@@ -607,9 +632,9 @@ Logitech M220 SILENT
                 justifyContent: "center",
               }}
             />
-            <CardContent sx={{textAlign:'center'}}>
+            <CardContent sx={{ textAlign: "center" }}>
               <Typography
-              marginBottom={"5px"}
+                marginBottom={"5px"}
                 display={"flex"}
                 justifyContent={"center"}
                 alignItems={"center"}
@@ -617,31 +642,34 @@ Logitech M220 SILENT
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 7 250 000 сум/мес
               </Typography>
-                <span
-                  style={{
-                    color: "#909090",
-                    textDecoration: "line-through",
-                    fontSize: "14px",
-                    fontWeight: "400",
-                  }}
-                >
-                  9 500 000 сум
-                </span>
+              <span
+                style={{
+                  color: "#909090",
+                  textDecoration: "line-through",
+                  fontSize: "14px",
+                  fontWeight: "400",
+                }}
+              >
+                9 500 000 сум
+              </span>
               <Typography
-                variant="h5"
+                height={"40px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"800"}
                 color={"black"}
                 marginTop={"15px"}
               >
-                Умные часы Haylou <br />
-RT-LS05S
+                Умные часы Haylou RT-LS05S
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -701,9 +729,9 @@ RT-LS05S
                 justifyContent: "center",
               }}
             />
-            <CardContent sx={{textAlign:'center'}}>
+            <CardContent sx={{ textAlign: "center" }}>
               <Typography
-              marginBottom={"5px"}
+                marginBottom={"5px"}
                 display={"flex"}
                 justifyContent={"center"}
                 alignItems={"center"}
@@ -711,31 +739,34 @@ RT-LS05S
                 color={"#ED3729"}
                 fontWeight={"600"}
                 textAlign={"center"}
-                variant="h5"
+                variant="h1"
                 component="div"
               >
                 165 000 сум/мес
               </Typography>
-                <span
-                  style={{
-                    color: "#909090",
-                    textDecoration: "line-through",
-                    fontSize: "14px",
-                    fontWeight: "400",
-                  }}
-                >
-                 256 000 сум
-                </span>
+              <span
+                style={{
+                  color: "#909090",
+                  textDecoration: "line-through",
+                  fontSize: "14px",
+                  fontWeight: "400",
+                }}
+              >
+                256 000 сум
+              </span>
               <Typography
-                variant="h5"
+                height={"40px"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                variant="h1"
                 textAlign={"center"}
                 fontSize={"16px"}
                 fontWeight={"800"}
                 color={"black"}
                 marginTop={"15px"}
               >
-                Умные часы Haylou <br />
-RT-LS05S
+                Умные часы Haylou RT-LS05S
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -784,7 +815,7 @@ RT-LS05S
         </Card>
       </Stack>
     </Stack>
-  )
-}
+  );
+};
 
-export default Cheaper
+export default Cheaper;
