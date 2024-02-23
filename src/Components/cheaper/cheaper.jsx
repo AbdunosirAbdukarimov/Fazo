@@ -37,7 +37,7 @@ const Cheaper = () => {
         flexWrap={"wrap"}
         justifyContent={"space-between"}
       >
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/1.png"
@@ -134,7 +134,7 @@ const Cheaper = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/2.png"
@@ -231,7 +231,7 @@ const Cheaper = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/3.png"
@@ -328,7 +328,7 @@ const Cheaper = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/4.png"
@@ -425,7 +425,7 @@ const Cheaper = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/5.png"
@@ -522,7 +522,7 @@ const Cheaper = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/6.png"
@@ -619,7 +619,7 @@ const Cheaper = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/7.png"
@@ -716,7 +716,7 @@ const Cheaper = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/8.png"

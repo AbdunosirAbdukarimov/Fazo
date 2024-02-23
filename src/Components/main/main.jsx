@@ -37,7 +37,7 @@ const Main = () => {
         flexWrap={"wrap"}
         justifyContent={"space-between"}
       >
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/lWGeSFc0Y6jBoVxA4hQw-home_default 1.png"
@@ -186,7 +186,7 @@ const Main = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/lWGeSFc0Y6jBoVxA4hQw-home_default 1 (8).png"
@@ -334,7 +334,7 @@ const Main = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/lWGeSFc0Y6jBoVxA4hQw-home_default 1 (1).png"
@@ -482,7 +482,7 @@ const Main = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/lWGeSFc0Y6jBoVxA4hQw-home_default 1 (2).png"
@@ -630,7 +630,7 @@ const Main = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/lWGeSFc0Y6jBoVxA4hQw-home_default 1 (7).png"
@@ -778,7 +778,7 @@ const Main = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/lWGeSFc0Y6jBoVxA4hQw-home_default 1 (3).png"
@@ -926,7 +926,7 @@ const Main = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/lWGeSFc0Y6jBoVxA4hQw-home_default 1 (4).png"
@@ -1074,7 +1074,7 @@ const Main = () => {
             </Button>
           </Stack>
         </Card>
-        <Card sx={{ width: "22%", margin: "20px 20px 20px 0px" }}>
+        <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>
             <img
               src="../../img/lWGeSFc0Y6jBoVxA4hQw-home_default 1 (5).png"
