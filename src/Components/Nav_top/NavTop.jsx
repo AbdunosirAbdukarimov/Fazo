@@ -1,7 +1,7 @@
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
 import { Stack } from "@mui/system";
-import { Box, List, MenuItem, Select, Typography } from "@mui/material";
+import { List, MenuItem, Select, Typography } from "@mui/material";
 
 
 const NavTop = () => {

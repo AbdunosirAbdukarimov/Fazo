@@ -14,7 +14,7 @@ const Category = () => {
           alignItems: "center",
           justifyContent: "center",
           padding: "5px 15px",
-          width: '23%'
+          width: {xs:'100%',md:'35%',lg:'23%'}
         }}
       >
         <Typography marginRight={"20px"} fontSize={"24px"}>
@@ -22,7 +22,7 @@ const Category = () => {
         </Typography>
         <Typography fontSize={"14px"}>Категории</Typography>
       </Button>
-      <List sx={{fontSize:'16px',display:'flex', alignItems:'center',justifyContent:'space-between', gap:'15px', fontWeight:'600',}}>
+      <List sx={{textWrap: 'nowrap', fontSize:'16px',display:{xs:'none',md:'flex'}, alignItems:'center',justifyContent:'space-between', gap:'15px', fontWeight:'600',overflowX:{md:'scroll',lg:'hidden'}}}>
         <li>Наши магазины</li>
         <li>Моноблоки</li>
         <li>Телефоны, планшеты</li>

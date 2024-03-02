@@ -22,20 +22,20 @@ const Main = () => {
       >
         <Typography
           variant="h2"
-          fontSize={"24px"}
           color={"#202020"}
           fontWeight={"600"}
+          sx={{fontSize:{xs:'18px', sm:'20px',md:'24px' }}}
         >
           Горящие предложения
         </Typography>
-        <Typography variant="h2" fontSize={"16px"} color={"#909090"}>
+        <Typography variant="h2" color={"#909090"} sx={{fontSize:{xs:'10px', sm:'12px',md:'16px' }}}>
           Посмотреть все →
         </Typography>
       </Box>
       <Stack
         flexDirection={"row"}
         flexWrap={"wrap"}
-        justifyContent={"space-between"}
+        sx={{justifyContent:{xs:'center', sm:'space-around', lg:'space-between'}}}
       >
         <Card sx={{ width: "260px", margin: "20px 20px 20px 0px" }}>
           <CardActionArea>

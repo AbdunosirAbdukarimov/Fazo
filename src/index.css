@@ -69,10 +69,35 @@
   .conteiner {
     padding: 0 10px;
   }
+  .swiper-pagination-bullet {
+    display: none;
+  }
+  
+  .swiper-button-prev {
+    display: none;
+  }
+  
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-slide img {
+    object-fit: cover;
+  }
 }
 @media screen and (min-width:600px) and (max-width:1200px){
   .conteiner {
     padding: 0 50px;
+  }
+  .swiper-pagination-bullet {
+    display: none;
+  }
+  
+  .swiper-button-prev {
+    display: none;
+  }
+  
+  .swiper-button-next {
+    display: none;
   }
 }
 @media screen and (min-width:1200px) and (max-width:1558px){

@@ -8,7 +8,7 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
-import { Brend, Category, Cheaper, Main, Popular, Swiper } from "../Components";
+import { Brend, Cheaper, Main, Popular, Swiper } from "../Components";
 import { PiScales } from "react-icons/pi";
 import { FaRegHeart } from "react-icons/fa";
 import { LuShoppingCart } from "react-icons/lu";
@@ -16,19 +16,18 @@ import { LuShoppingCart } from "react-icons/lu";
 const Home = () => {
   return (
     <>
-      <Category />
       <Swiper />
       <Main />
       <Popular />
       <Stack
-        flexDirection={"row"}
         alignItems={"center"}
         padding={"30px"}
         justifyContent={"space-between"}
         margin={"70px 0"}
+        sx={{flexDirection:{xs:'column',lg:'row'}}}
       >
-        <Box width={"37%"}>
-          <Typography variant="h1" fontSize={"42px"} color={"#202020"}>
+        <Box sx={{width:{sx:'100%',lg:'37%'}}}>
+          <Typography variant="h1" color={"#202020"} sx={{textAlign:{xs:'center',lg:'start'}, fontSize:{xs:'18px',md:'25px',lg:'42px'}}}>
             Apple iPhone X 64 ГБ
           </Typography>
           <Typography
@@ -36,6 +35,7 @@ const Home = () => {
             fontSize={"16px"}
             color={"#909090"}
             marginTop={"20px"}
+            sx={{textAlign:{xs:'center',lg:'start'},fontSize:{xs:'10px',md:'12px',lg:'16px'}}}
           >
             Совершенно новый дисплей Super Retina с диагональю 5,8 дюйма,
             который удобно лежит в руке и потрясающие выглядит, — это и есть
@@ -44,7 +44,7 @@ const Home = () => {
         </Box>
         <Box>
           <CardMedia
-            sx={{ width: "auto" }}
+            sx={{ width: "auto" , height: "250px" }}
             component="img"
             image="../../img/892 1.png"
             alt="green iguana"
@@ -53,18 +53,16 @@ const Home = () => {
         <Box>
           <Typography
             variant="h1"
-            fontSize={"42px"}
             color={"#ED3729"}
             fontWeight={"900"}
+            sx={{textAlign:{xs:'center',lg:'start'},fontSize:{xs:'16px',md:'20px',lg:'42px'}}}
           >
             1 300 900 Сум
           </Typography>
           <Typography
             variant="h1"
-            fontSize={"20px"}
             color={"#909090"}
-            margin={"20px 0"}
-            sx={{ textDecoration: "line-through" }}
+            sx={{margin:{xs:'5px 0',md:'10px 0',lg:'20px 0'} , textDecoration: "line-through",textAlign:{xs:'center',lg:'start'},fontSize:{xs:'10px',md:'14px',lg:'20px'} }}
           >
             2 220 900 Сум
           </Typography>
@@ -74,8 +72,9 @@ const Home = () => {
               borderColor: "#ED3729",
               color: "#ED3729",
               fontSize: "16px",
-              padding: "12px 51px",
+              padding: {xs:'8px 34px',md:'10px 45px',lg:"12px 51px"},
               fontWeight: "bold",
+              
             }}
             variant="outlined"
           >
@@ -94,25 +93,24 @@ const Home = () => {
         >
           <Typography
             variant="h2"
-            fontSize={"24px"}
             color={"#202020"}
             fontWeight={"60"}
+            sx={{fontSize:{xs:'18px', sm:'20px',md:'24px' }}}
           >
             Рекомендуем
           </Typography>
-          <Typography variant="h2" fontSize={"16px"} color={"#909090"}>
+          <Typography variant="h2" color={"#909090"} sx={{fontSize:{xs:'10px', sm:'12px',md:'16px' }}}>
             Посмотреть все →
           </Typography>
         </Box>
         <Stack flexDirection={"row"}>
-          <Box>
+          <Box sx={{display:{xs:'none',lg: 'flex'}}}>
             <img src="../../img/newHotRus 1.png" alt="" />
           </Box>
           <Stack
             flexDirection={"row"}
             flexWrap={"wrap"}
-            justifyContent={"space-between"}
-            marginLeft={'30px'}
+            sx={{justifyContent:{xs:'center', sm:'space-around', lg:'space-between'}, marginLeft:{sx:'0',lg:'30px'}}}
           >
             <Card sx={{ width: "230px", margin: "20px 20px 20px 0px" }}>
               <CardActionArea>

@@ -7,6 +7,7 @@ import { PiScales } from "react-icons/pi";
 import { FaRegHeart } from "react-icons/fa";
 import { LuShoppingCart } from "react-icons/lu";
 import { FaBars } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 
@@ -34,19 +35,27 @@ const Nav = () => {
       </Stack>
       <Stack sx={{display:{xs:'none', lg:'flex'}}} flexDirection={"row"}>
          <Typography display={"flex"}alignItems={"center"} flexDirection={"column"} variant='h6'fontSize={"25px"} margin={"0 10px"}>
+            <Link style={{height:'30px',color:'#202020'}} to={'/'}>
             <FiUser/>
+            </Link>
             <Typography variant='h6' fontSize={"14px"}>Войти</Typography>
          </Typography>
          <Typography display={"flex"}alignItems={"center"} flexDirection={"column"} variant='h6'fontSize={"25px"} margin={"0 10px"}>
+            <Link style={{height:'30px',color:'#202020'}} to={'/'}>
             <PiScales />
+            </Link>
             <Typography variant='h6' fontSize={"14px"}>Сравнение</Typography>
          </Typography>
          <Typography  display={"flex"}alignItems={"center"} flexDirection={"column"} variant='h6' fontSize={"25px"} margin={"0 10px"}>
-           <FaRegHeart/>
-           <Typography variant='h6' fontSize={"14px"}>Избранное</Typography>  
+           <Link style={{height:'33px',color:'#202020'}} to={'/favourites'}>
+            <FaRegHeart/>
+           </Link>
+            <Typography variant='h1' fontSize={"14px"}>Избранное</Typography>  
          </Typography>
          <Typography display={"flex"}alignItems={"center"} flexDirection={"column"}  variant='h6' fontSize={"25px"} margin={"0 10px"}>
-            <LuShoppingCart/>   
+            <Link style={{height:'30px',color:'#202020'}} to={'/'}>
+              <LuShoppingCart/>   
+            </Link>
             <Typography variant='h6' fontSize={"14px"}>Корзина</Typography>
          </Typography>
       </Stack>
