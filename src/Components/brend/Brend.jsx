@@ -14,10 +14,10 @@ const Brend = () => {
           <Typography
             variant="h2"
             color={"#202020"}
-            fontWeight={"60"}
+            fontWeight={"600"}
             sx={{fontSize:{xs:'18px', sm:'20px',md:'24px' }}}
           >
-            Рекомендуем
+            Бренды
           </Typography>
           <Typography variant="h2" color={"#909090"} sx={{fontSize:{xs:'10px', sm:'12px',md:'16px' }}}>
             ← →

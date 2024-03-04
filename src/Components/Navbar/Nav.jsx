@@ -35,13 +35,13 @@ const Nav = () => {
       </Stack>
       <Stack sx={{display:{xs:'none', lg:'flex'}}} flexDirection={"row"}>
          <Typography display={"flex"}alignItems={"center"} flexDirection={"column"} variant='h6'fontSize={"25px"} margin={"0 10px"}>
-            <Link style={{height:'30px',color:'#202020'}} to={'/'}>
+            <Link style={{height:'30px',color:'#202020'}} to={'/profile'}>
             <FiUser/>
             </Link>
             <Typography variant='h6' fontSize={"14px"}>Войти</Typography>
          </Typography>
          <Typography display={"flex"}alignItems={"center"} flexDirection={"column"} variant='h6'fontSize={"25px"} margin={"0 10px"}>
-            <Link style={{height:'30px',color:'#202020'}} to={'/'}>
+            <Link style={{height:'30px',color:'#202020'}} to={'/filter'}>
             <PiScales />
             </Link>
             <Typography variant='h6' fontSize={"14px"}>Сравнение</Typography>

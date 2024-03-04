@@ -23,7 +23,7 @@ const Cheaper = () => {
         <Typography
           variant="h2"
           color={"#202020"}
-          fontWeight={"60"}
+          fontWeight={"600"}
           sx={{fontSize:{xs:'18px', sm:'20px',md:'24px' }}}
         >
           Товары дешевле:

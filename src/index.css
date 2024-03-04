@@ -64,6 +64,10 @@
 .swiper-button-prev::after {
   content: "";
 }
+.css-14pt78w-MuiSlider-rail{
+  color: gray;
+}
+
 
 @media screen and (min-width:0px) and (max-width:600px){
   .conteiner {
