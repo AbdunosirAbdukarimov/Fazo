@@ -54,7 +54,7 @@ const Filter = () => {
         alignItems={"start"}
         marginTop={"20px"}
       >
-        <Stack width={"360px"}>
+        <Stack width={"360px"} marginRight={'20px'}>
           <Card sx={{ padding: "10px" }}>
             <Accordion elevation={0}>
               <AccordionSummary elevation={0} expandIcon={<ExpandMoreIcon />}>
@@ -64,6 +64,7 @@ const Filter = () => {
                 <TextField
                   variant="outlined"
                   placeholder="от 300 000"
+                  type="number"
                   sx={{
                     width: "50%",
                     "& label.Mui-focused": {
@@ -92,6 +93,7 @@ const Filter = () => {
                 <TextField
                   variant="outlined"
                   placeholder="до 103 300 000"
+                  type="number"
                   sx={{
                     width: "50%",
                     "& label.Mui-focused": {

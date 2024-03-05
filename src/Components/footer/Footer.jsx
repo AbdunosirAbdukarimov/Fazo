@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
     <Stack bgcolor={'#202020'} marginTop={'80px'} flexDirection={'row'} flexWrap={'wrap'} position={'relative'} justifyContent={'space-around'} sx={{padding:{xs:'60px 10px',sm:'30px 50px',md:'50px 80px', lg:'70px 100px'}}}>
-        <Box width={'300px'} sx={{textAlign:{xs:'center',md:'start'}}}>
+        <Box width={'280px'} sx={{textAlign:{xs:'center',md:'start'}}}>
             <Box width={'120px'} >            
             <CardMedia
             component="img"
@@ -41,7 +41,7 @@ const Footer = () => {
                 </Box>
             </Stack>
         </Box>
-        <Box width={'300px'} sx={{textAlign:{xs:'center',md:'start'}}}>
+        <Box width={'280px'} sx={{textAlign:{xs:'center',md:'start'}}}>
             <List sx={{fontSize:'16px', color:'#909090'}}>
             <Typography variant='h1' fontSize={'20px'} fontWeight={'500'} color={'white'}>
                 Категории
@@ -53,7 +53,7 @@ const Footer = () => {
             <li style={{marginTop:'15px'}}>Модули памяти</li>
             </List>
         </Box>
-        <Box width={'300px'} sx={{textAlign:{xs:'center',md:'start'}}}>
+        <Box width={'280px'} sx={{textAlign:{xs:'center',md:'start'}}}>
             <List sx={{fontSize:'16px', color:'#909090'}}>
             <Typography variant='h1' fontSize={'20px'} fontWeight={'500'} color={'white'}>
             Общее
@@ -66,7 +66,7 @@ const Footer = () => {
             <li style={{marginTop:'15px'}}>Контакты</li>
             </List>
         </Box>
-        <Box width={'300px'} sx={{textAlign:{xs:'center',md:'start'}}}>
+        <Box width={'280px'} sx={{textAlign:{xs:'center',md:'start'}}}>
             <List sx={{fontSize:'16px', color:'#909090'}}>
             <Typography variant='h1' fontSize={'20px'} fontWeight={'500'} color={'white'}>
             Покупателям
