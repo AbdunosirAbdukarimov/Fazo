@@ -53,7 +53,7 @@ const Nav = () => {
             <Typography variant='h1' fontSize={"14px"}>Избранное</Typography>  
          </Typography>
          <Typography display={"flex"}alignItems={"center"} flexDirection={"column"}  variant='h6' fontSize={"25px"} margin={"0 10px"}>
-            <Link style={{height:'30px',color:'#202020'}} to={'/'}>
+            <Link style={{height:'30px',color:'#202020'}} to={'/prduct'}>
               <LuShoppingCart/>   
             </Link>
             <Typography variant='h6' fontSize={"14px"}>Корзина</Typography>
