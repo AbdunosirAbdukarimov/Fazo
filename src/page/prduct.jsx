@@ -21,7 +21,7 @@ const Prduct = () => {
       >
         Главная › Ноутбуки › Apple
       </Typography>
-      <Stack  sx={{flexDirection:{xs:'column',lg:'row'},position:'relative',left:{xs:'50%',lg:'0'},transform:{xs:'translateX(-20%)',lg:'translateX(0)'}}}>
+      <Stack sx={{flexDirection:{sx:'column',lg:'row'}}}>
         <Stack sx={{width:{xs:'100%',lg:'360px'}}}>
           <Box>
             <img

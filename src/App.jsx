@@ -5,6 +5,7 @@ import Filter from "./page/Filter"
 import Home from "./page/Home"
 import Prduct from "./page/prduct"
 import Profile from "./page/profile"
+import Purchase from "./page/purchase"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/filter" element={<Filter/>} />
           <Route path="/profile" element={<Profile/>} />
           <Route path="/prduct" element={<Prduct/>} />
+          <Route path="/purchase" element={<Purchase/>} />
         </Routes>
       </div>
       <Footer/>
