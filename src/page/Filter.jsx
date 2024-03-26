@@ -19,6 +19,10 @@ import { Box, Stack } from "@mui/system";
 import { PiScales } from "react-icons/pi";
 import { FaRegHeart } from "react-icons/fa";
 import { LuShoppingCart } from "react-icons/lu";
+import { useParams } from "react-router-dom";
+import { ApiService } from "../service/api.service";
+import { useEffect } from "react";
+import { useState } from "react";
 
 function valuetext(value) {
   return `${value}°C`;
@@ -26,7 +30,21 @@ function valuetext(value) {
 
 const Filter = () => {
   const [value, setValue] = React.useState([20, 37]);
-
+  const { subCategory, theme } = useParams();
+  const [product, setProduct] = useState([]);
+  const getAPi = async () => {
+  try {
+      const {data} = await ApiService.fetching(`${subCategory}/${theme}`);
+      setProduct(data);
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  useEffect(() => {
+    getAPi()
+  }, [subCategory]);
+  
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -54,7 +72,7 @@ const Filter = () => {
         alignItems={"start"}
         marginTop={"20px"}
       >
-        <Stack width={"360px"} marginRight={'20px'}>
+        <Stack width={"360px"} marginRight={"20px"}>
           <Card sx={{ padding: "10px" }}>
             <Accordion elevation={0}>
               <AccordionSummary elevation={0} expandIcon={<ExpandMoreIcon />}>
@@ -280,104 +298,108 @@ const Filter = () => {
             },
           }}
         >
-          <Card sx={{ width: "260px", margin: "0px 20px 20px 0px" }}>
-            <CardActionArea>
-              <img
-                src="../../img/1.png"
-                alt=""
-                style={{
-                  position: "relative",
-                  left: "50%",
-                  transform: "translateX(-50%)",
-                  display: "flex",
-                  justifyContent: "center",
-                }}
-              />
-              <CardContent sx={{ textAlign: "center" }}>
-                <Typography
-                  marginBottom={"5px"}
-                  display={"flex"}
-                  justifyContent={"center"}
-                  alignItems={"center"}
-                  fontSize={"18px"}
-                  color={"#ED3729"}
-                  fontWeight={"600"}
-                  textAlign={"center"}
-                  variant="h1"
-                  component="div"
+          {product &&
+            product.map((item) => (
+              <Card sx={{ width: "260px", margin: "0px 20px 20px 0px" }}>
+                <CardActionArea>
+                  <img
+                    src="../../img/1.png"
+                    alt=""
+                    style={{
+                      position: "relative",
+                      left: "50%",
+                      transform: "translateX(-50%)",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  />
+                  <CardContent sx={{ textAlign: "center" }}>
+                    <Typography
+                      marginBottom={"5px"}
+                      display={"flex"}
+                      justifyContent={"center"}
+                      alignItems={"center"}
+                      fontSize={"18px"}
+                      color={"#ED3729"}
+                      fontWeight={"600"}
+                      textAlign={"center"}
+                      variant="h1"
+                      component="div"
+                    >
+                      {item.discount_price} сум/мес
+                    </Typography>
+                    <span
+                      style={{
+                        color: "#909090",
+                        textDecoration: "line-through",
+                        fontSize: "14px",
+                        fontWeight: "400",
+                      }}
+                    >
+                      {item.price} сум
+                    </span>
+                    <Typography
+                      height={"40px"}
+                      display={"flex"}
+                      alignItems={"center"}
+                      justifyContent={"center"}
+                      variant="h1"
+                      textAlign={"center"}
+                      fontSize={"16px"}
+                      fontWeight={"800"}
+                      color={"black"}
+                      marginTop={"15px"}
+                    >
+                      {item.name}
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+                <Stack
+                  flexDirection={"row"}
+                  justifyContent={"space-around"}
+                  fontSize={"25px"}
+                  fontWeight={"100"}
+                  color={"#BDBDBD"}
+                  padding={"10px"}
+                  borderTop={"2px solid #F2F2F2"}
                 >
-                  458 000 сум/мес
-                </Typography>
-                <span
-                  style={{
-                    color: "#909090",
-                    textDecoration: "line-through",
-                    fontSize: "14px",
-                    fontWeight: "400",
-                  }}
-                >
-                  529 000 сум
-                </span>
-                <Typography
-                  height={"40px"}
-                  display={"flex"}
-                  alignItems={"center"}
-                  justifyContent={"center"}
-                  variant="h1"
-                  textAlign={"center"}
-                  fontSize={"16px"}
-                  fontWeight={"800"}
-                  color={"black"}
-                  marginTop={"15px"}
-                >
-                  Умные часы Haylou RT-LS05S
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <Stack
-              flexDirection={"row"}
-              justifyContent={"space-around"}
-              fontSize={"25px"}
-              fontWeight={"100"}
-              color={"#BDBDBD"}
-              padding={"10px"}
-              borderTop={"2px solid #F2F2F2"}
-            >
-              <Button
-                sx={{
-                  "&:hover": { backgroundColor: "transparent" },
-                  bgcolor: "transparent",
-                  fontSize: "22px",
-                  color: "#BDBDBD",
-                }}
-              >
-                <LuShoppingCart />
-              </Button>
-              |
-              <Button
-                sx={{
-                  "&:hover": { backgroundColor: "transparent" },
-                  bgcolor: "transparent",
-                  fontSize: "22px",
-                  color: "#BDBDBD",
-                }}
-              >
-                <FaRegHeart />
-              </Button>
-              |
-              <Button
-                sx={{
-                  "&:hover": { backgroundColor: "transparent" },
-                  bgcolor: "transparent",
-                  fontSize: "22px",
-                  color: "#BDBDBD",
-                }}
-              >
-                <PiScales />
-              </Button>
-            </Stack>
-          </Card>
-          <Card sx={{ width: "260px", margin: "0px 20px 20px 0px" }}>
+                  <Button
+                    sx={{
+                      "&:hover": { backgroundColor: "transparent" },
+                      bgcolor: "transparent",
+                      fontSize: "22px",
+                      color: "#BDBDBD",
+                    }}
+                  >
+                    <LuShoppingCart />
+                  </Button>
+                  |
+                  <Button
+                    sx={{
+                      "&:hover": { backgroundColor: "transparent" },
+                      bgcolor: "transparent",
+                      fontSize: "22px",
+                      color: "#BDBDBD",
+                    }}
+                  >
+                    <FaRegHeart />
+                  </Button>
+                  |
+                  <Button
+                    sx={{
+                      "&:hover": { backgroundColor: "transparent" },
+                      bgcolor: "transparent",
+                      fontSize: "22px",
+                      color: "#BDBDBD",
+                    }}
+                  >
+                    <PiScales />
+                  </Button>
+                </Stack>
+              </Card>
+            ))}
+
+          {/* <Card sx={{ width: "260px", margin: "0px 20px 20px 0px" }}>
             <CardActionArea>
               <img
                 src="../../img/2.png"
@@ -1152,7 +1174,7 @@ const Filter = () => {
                 <PiScales />
               </Button>
             </Stack>
-          </Card>
+          </Card> */}
           <Stack width={"100%"} alignItems={"center"}>
             <Button
               variant="outlined"
@@ -1177,7 +1199,7 @@ const Filter = () => {
               color="error"
             />
           </Stack>
-          <Stack width={"100%"}>
+          {/* <Stack width={"100%"}>
             <Typography
               variant="h1"
               fontSize={"24px"}
@@ -1617,7 +1639,7 @@ const Filter = () => {
                 </Stack>
               </Card>
             </Stack>
-          </Stack>
+          </Stack> */}
         </Stack>
       </Stack>
     </Stack>

@@ -15,7 +15,7 @@ const Nav = () => {
   return (
     <Stack flexDirection={"row"} alignItems={"center"} padding={"20px"} justifyContent={"space-between"}>
       <Box marginRight={'20px'} sx={{ display:{xs:'none',lg:'flex'}}}>
-        <img src="../../img/Logo.png" alt="" />
+        <Link to={'/'}><img src="../../img/Logo.png" alt="" /></Link>
       </Box>
         <Button sx={{ display:{xs:'flex',lg:'none'} , "&:hover": { backgroundColor: "#ED3729" }, bgcolor:"#ED3729", color:"white", justifyContent:"center", padding:"16px 0",fontSize:'25px', marginRight:'20px', borderRadius:'10px'}}><FaBars/></Button>
       <Stack flexDirection={"row"} sx={{width:{xs:'85%', md:'80%', lg:'57%'}, border:"2px solid #ED3729", borderRadius:"7px"}} alignItems={"center"} justifyContent={"space-between"} position={"relative"}>
